@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400|Bree+Serif|Lobster);
+
+body{
+	font-family: "Open Sans";
+}
+
+.navbar-brand{
+	font-family: "Lobster";
+	font-size: 2em;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+	color: #bbb;
+}
+
+.navbar-inverse .navbar-nav>li>a.highlight{
+	background: #fa5050;
+	color: #fff;
+}
+
+.superhero, .as-seen-on, .steps{
+	padding: 100px 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.superhero{
+	padding-top: 200px;
+	padding-bottom: 150px;
+}
+
+.superhero h1, .as-seen-on h1, .steps h1{
+	font-family: Lobster;
+}
+
+.bg-feature{
+
+	background: url(../img/kambing2.jpg) top center no-repeat;
+}
+
+.btn{
+	/*border-radius: 0px;*/
+}
+
+.superhero .btn{
+	border: 2px #fff solid;
+	font-size: 1.5em;
+	margin: 5px;
+}
+
+.superhero h1{
+	text-shadow: 1px 1px 4px #000;
+}
+
+.superhero .logo{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 14px #000;
+}
+
+.as-seen-on{
+	padding: 40px;
+	padding-bottom: 100px;
+	background: #ccc;
+}
+
+.as-seen-on h1{
+	color: #444;
+	font-size: 4em;
+}
+
+.as-seen-on h1{
+	color: #444;
+	font-size: 4em;
+}
+
+.as-seen-on img{
+	max-width: 100%;
+}
+
+a{
+	-webkit-transition: all 0.3s;
+}
+
+.as-seen-on a{
+	-webkit-filter: grayscale(1);
+}
+
+.as-seen-on a:hover{
+	/*max-width: 100%;*/
+	-webkit-filter: grayscale(0);
+}
+
+.steps{
+	padding: 10px;
+	color: #444;
+	padding-bottom: 60px;
+}
+
+.steps a{
+	margin: 10px;
+}
+
+.steps h1{
+	margin: 60px;
+	font-size: 4em;
+}
+
+.steps i{
+	font-size: 5em;
+}
+
+.pakej{
+	color: #fff;
+	background: #444 url(../img/kambing2.jpg) top center no-repeat;
+	background-blend-mode: multiply;
+}
+
+.pakej h2{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.pakej b{
+	font-size: 1.8em;
+}
+
+.borang{
+	background: #000;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.daging{
+	background: #ff5050;
+	padding: 20px 0px;
+}
+
+.bakar{
+	background: #008aff;
+	padding: 20px 0px;
+}
+
+.katering{
+	background: #5cb85c;
+	padding: 20px 0px;
+}
+
+#borang-tempahan .form-control{
+	padding: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	/*font-weight: bold;*/
+}
+
+.badge-lelaki{ background: #428bca;}
+.badge-perempuan{ background: #5cb85c;}
+.badge-daging{ background: #ff5050;}
+.badge-bakar{ background: #008aff;}
+.badge-katering{ background: #5cb85c;}
